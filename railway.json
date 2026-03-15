@@ -5,7 +5,6 @@
     "watchPatterns": ["src/**", "public/**", "index.html", "package.json"]
   },
   "deploy": {
-    "startCommand": "nginx -g 'daemon off;'",
     "healthcheckPath": "/",
     "restartPolicyType": "ON_FAILURE"
   }
